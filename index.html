@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- start Quiz button -->
+    <div class="start_btn"><h1>Quiz</h1><button>Start</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Important rules for the Quiz</span></div>
+        <div class="info-list">
+            <div class="info"> 1. Read each questions <span>carefully</span>.</div>
+            <div class="info">2. Once you select your answer, it can't be undone.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        
+
+            <h2 id="quiz-question">
+                Question tag
+            </h2>
+        
+            <ul>
+        
+                <li>
+                    <input type="radio" class="answer" id="option-a" name="quiz-options">
+                    <label for="option-a" id="text_option_a"> Option A</label>
+                </li>
+                <li>
+                    <input type="radio" class="answer" id="option-b" name="quiz-options">
+                    <label for="option-b" id="text_option_b"> Option B</label>
+                </li>
+                <li>
+                    <input type="radio" class="answer" id="option-c" name="quiz-options">
+                    <label for="option-c" id="text_option_c"> Option C</label>
+                </li>
+                <li>
+                    <input type="radio" class="answer" id="option-d" name="quiz-options">
+                    <label for="option-d" id="text_option_d"> Option D</label>
+                </li>
+            </ul>
+        
+            <button id="submit">Submit</button>
+       
+    </div>
+
+    
+    
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="js/script.js"></script>
+    <script src="js/question.js"></script>
+
+
+</body>
+</html>
+</html>
